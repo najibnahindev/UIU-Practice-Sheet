@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #005f73;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+  text-decoration: none;
+  /* Remove the underline */
+  color: inherit;
+  /* Inherit the color from the parent (header) */
+}
+
+header a:hover {
+  color: inherit;
+  /* Maintain the color on hover */
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+
+.footer {
+  background: #005f73;
+  color: white;
+  padding: 0.8rem;
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+.socials {
+  margin-bottom: 0.5rem;
+}
+
+.socials a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: color 0.3s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.socials a:hover {
+  color: #00b4d8;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.expanded .arrow {
+  transform: rotate(90deg);
+}
